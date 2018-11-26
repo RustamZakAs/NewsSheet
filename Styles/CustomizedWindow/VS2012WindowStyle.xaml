@@ -17,8 +17,7 @@
                     <Grid>
                         <Border
                             x:Name="PART_border"
-                            Background="Transparent"
-                            />
+                            Background="Transparent"/>
                         <ContentPresenter />
                     </Grid>
                     <ControlTemplate.Triggers>
@@ -45,8 +44,7 @@
                     <Grid>
                         <Border
                             x:Name="PART_border"
-                            Background="Transparent"
-                            />
+                            Background="Transparent"/>
                         <ContentPresenter />
                     </Grid>
                     <ControlTemplate.Triggers>

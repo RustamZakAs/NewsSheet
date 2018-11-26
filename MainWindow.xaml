@@ -23,7 +23,27 @@
             ScrollViewer.CanContentScroll="True" 
             ScrollViewer.VerticalScrollBarVisibility="Auto"
             ScrollViewer.HorizontalScrollBarVisibility="Auto">
-            
+            <ListBox Margin="0,6,0,0">
+                <ListBoxItem HorizontalContentAlignment="Stretch">
+                    <DockPanel>
+                        <DockPanel LastChildFill="True" DockPanel.Dock="Top">
+                            <Ellipse Height="30" Width="30" DockPanel.Dock="Left">
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="mainicon.ico"/>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                            <Button DockPanel.Dock="Right" Content="X"/>
+                            <TextBlock Text="Hello - text"/>
+                        </DockPanel>
+                        <DockPanel>
+                            <TextBlock>
+                                Hello Welcome!<LineBreak/>
+                                sfdsdf
+                            </TextBlock>
+                        </DockPanel>
+                    </DockPanel>
+                </ListBoxItem>
+            </ListBox>
             </DockPanel>
     </DockPanel>
 </Window>
